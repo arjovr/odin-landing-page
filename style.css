@@ -74,6 +74,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     gap: 96px;
+    padding: 32px;
 }
 
 .header-hero-left h1 {
@@ -91,13 +92,10 @@ header {
 }
 
 .header-hero-right {
-    height: 250px;
-    background-color: #6D747D;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
-    flex: 1;
 }
 
 .header-hero-left h3,
@@ -178,7 +176,6 @@ div.quote {
 .caption {
     text-align: justify;
     margin: 10px;
-    margin: 0;
 }
 
 section.quote {
@@ -204,7 +201,7 @@ div.quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px;
+    padding: 32px;
 }
 
 .call-to-action-content {
@@ -215,8 +212,8 @@ div.quote-container {
     align-items: center;
     padding-top: 48px;
     padding-bottom: 48px;
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .call-to-action-container {
